@@ -1,0 +1,154 @@
+/*第四部分：页面主体下面的部分，包括淘宝头条、阿里APP，
+本来应该跟页面主体一起写的，忘写了，所以分为第四部分*/
+
+.bottom {
+	position: relative;
+	height: 120px;
+	/*border: 1px solid green;*/
+	background-color: #f5f5f5;
+	margin: 0 auto;
+}
+/*左侧淘宝头条*/
+.toutiao {
+	position: absolute;
+	top: 10px;
+	left: 33px;
+	height: 100px;
+	width: 915px;   /*915*/
+	/*border: 1px solid red;*/
+	background-color: #fff;
+}
+.toutiao .headline {
+	position: absolute;
+	/*border: 1px solid red;*/
+	width: 188px;
+	height: 62px;
+	top: 25px;
+	left: 20px;
+}
+.headline h2 {
+	background-image: url(../images/taobaotoutiao.jpg);
+	background-repeat: no-repeat;
+	background-size: 130px 28px;
+	height: 0px;
+	width: 0px;
+	padding: 28px 130px 0 0;
+	/*border: 1px solid red;*/
+	white-space: nowrap;
+	overflow: hidden;
+}
+.headline p {
+	margin: 5px 0;
+	font-size: 12px;
+	/*border: 1px solid red;*/
+}
+/*.headline h2::after {
+	content: "淘宝头条";
+}*/
+.toutiao .news {
+	position: absolute;
+	/*border: 1px solid red;*/
+	top: 15px;
+	left: 220px;
+	height: 71px;
+	width: 692px;
+}
+.news img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 130px;
+	height: 71px;
+}
+.news .title {
+	position: absolute;
+	top: 0px;
+	left: 130px;
+	height: 28px;
+	width: 494px;
+	line-height: 28px;
+	padding: 0 8px;
+	/*border: 1px solid blue;*/
+}
+.news .content {
+	font-size: 14px;
+	position: absolute;
+	top: 30px;
+	left: 130px;
+	height: 40px;
+	line-height: 20px;
+	padding: 0 8px;
+	/*border: 1px solid blue;*/
+}
+.news .more {
+	font-size: 12px;
+	position: absolute;
+	top: 0;
+	left: 640px;
+	width: 52px;
+	height: 28px;
+	line-height: 28px;
+	/*border: 1px solid green;*/
+}
+.news .content,
+.news .more,
+.headline p {
+	color: #999;
+}
+.news .title:hover,
+.news .more:hover {
+	color: #ff5000;
+}
+
+/*右侧app*/
+.app {
+	position: absolute;
+	height: 110px;
+	width: 260px;
+	top: -8.5px;
+	left: 930px;
+	/*border: 1px solid red;*/
+	background-color: #fff;
+}
+.app .title,
+.app .more {
+	position: absolute;
+	top: 0;
+	height: 30px;
+	line-height: 30px;
+	/*border: 1px solid blue;*/
+}
+.app .title {
+	left: 0;
+	width: 80px;
+	font-size: 14px;
+	font-weight: bold;
+	padding-left: 15px;
+}
+.app .more {
+	font-size: 12px;
+	right: 0;
+	width: 40px;
+}
+.app .more:hover {
+	color: #ff5000;
+}
+.app .icons {
+	position: absolute;
+	top: 30px;
+	left: 10px;
+	width: 240px;
+	height: 80px;
+	/*border: 1px solid green;*/
+}
+.app .icons a {
+	display: inline-block;
+	width: 48px;
+	height: 40px;
+	/*border: 1px solid blue;*/
+	float: left;
+}
+.app .icons img {
+	width: 32px;
+	padding: 0 8px;
+}

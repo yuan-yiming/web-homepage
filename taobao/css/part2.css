@@ -1,0 +1,167 @@
+/*第二部分：顶部导航栏与页面主体之间的内容，包括搜索框、二维码等*/
+
+.search {
+	position: relative;
+	height: 120px;
+	/*border: 5px solid red;*/
+	margin: 0 36px;
+
+}
+.search .search-content {
+	margin: 0 auto;
+	width: 1263px;
+}
+
+/*logo部分*/
+.logo-part {
+	width: 180px;
+	height: 120px;
+	line-height: 120px;
+	float: left;
+	/*border: 2px solid blue;*/
+}
+.logo-content {
+	/*display: inline-block;*/
+	height: 0;
+	padding: 30px 0;
+	margin: 30px 20px;
+	background-image: url("../images/taobao_logo.jpg");
+	background-size: 140px 60px;
+	background-repeat: no-repeat;
+	white-space: nowrap;
+	overflow: hidden;
+	/*border: 2px solid green;*/
+}
+
+
+/*二维码部分*/
+.qr-code-part {
+	width: 180px;
+	height: 120px;
+	line-height: 120px;
+	float: right;
+	/*border: 2px solid blue;*/
+}
+.close-btn {
+	width: 16px;
+	height: 16px;
+	line-height: 16px;
+	border: 1px solid #eee;
+	margin-top: 24px;
+	float: left;
+}
+a.x {
+	/*border: 1px solid red;*/
+	display: block;
+	height: 16px;
+	line-height: 16px;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 12px;
+	color: #eee;
+}
+.qr-code {
+	width: 70px;
+	height: 84px;
+	margin: 24px 0 10px 0;
+	border: 1px solid #eee;
+	float: left;
+}
+.code-title {
+	/*display: inline-block;*/
+	/*border: 1px solid red;*/
+	height: 19px;
+	line-height: 19px;
+	font-size: 12px;
+	font-weight: 500;
+	color: #f40;
+	text-align: center;
+}
+.qr-code img {
+	width: 60px;
+	/*border: 2px solid red;*/
+	margin: 0px 5px 5px 5px;
+}
+
+
+/*中间部分*/
+.center-part {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	width: 620px;
+	height: 70px;
+	margin-left: -310px;
+	margin-top: -35px; 
+	/*background-color: pink;*/
+	/*border: 2px solid blue;*/
+
+}
+/*上面小的选择导航栏*/
+.search-nav {
+	display: inline-block;
+	height: 20px;
+	line-height: 20px;
+	/*border: 1px solid red;*/
+}
+.search-nav li {
+	float: left;
+}
+.search-nav li a {
+	height: 20px;
+	color: #f40;
+	font-size: 12px;
+	font-weight: 500;
+	margin-left: 15px;
+	border-radius: 5px 5px 0 0;
+	padding: 3px;
+}
+.search-nav li a:hover {
+	color: #fff;
+	background-color: #f40;
+}
+
+/*搜索框*/
+.search-box {
+	clear: both;
+	width: 620px;
+	height: 30px;
+	line-height: 30px;
+	/*margin-top: -4px;*/
+	/*border: 1px solid green;*/
+}
+.search-box form {
+	height: 30px;
+	line-height: 30px;
+
+}
+#query {
+	/*margin-top: 1px;*/
+	width: 570px;
+	height: 26px;
+	line-height: 26px;
+	border: 2px solid #f40;
+	border-radius: 15px 0 0 15px;
+	float: left;
+	outline: none;
+}
+#submit {
+	/*margin-top: -2px;*/
+	height: 30px;
+	line-height: 30px;
+	width: 46px;
+	background-color: #f40;
+	border-style: none;
+	border-radius: 0 15px 15px 0;
+	text-align: center;
+	vertical-align: top;
+}
+#submit a {
+	height: 30px;
+	color: #fff;
+	/*border: 1px solid black;*/
+}
+.hot-link a {
+	font-size: 12px;
+	font-weight: 500;
+}

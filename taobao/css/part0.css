@@ -1,0 +1,15 @@
+/*默认设置样式*/
+
+* {
+	padding: 0;
+	margin: 0;
+	font-family: tahoma,arial,'Hiragino Sans GB',"\5b8b\4f53",sans-serif;
+	color: #242424;
+	/*background-color: #f4f4f4;*/
+}
+a {
+	text-decoration: none;
+}
+ul {
+	list-style: none;
+}
